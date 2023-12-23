@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Scroll Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gallery-wrap">
+        <img src="back.png" id="backBtn">
+        <div class="gallery">
+            <div>
+                <span><img src="t.jpg" class="gallery-image" data-index="0"></span>
+                <span><img src="a.jpg" class="gallery-image" data-index="1"></span>
+                <span><img src="y.jpg" class="gallery-image" data-index="2"></span>
+            </div>
+            <div>
+                <span><img src="l.jpg" class="gallery-image" data-index="3"></span>
+                <span><img src="o.jpg" class="gallery-image" data-index="4"></span>
+                <span><img src="r.jpg" class="gallery-image" data-index="5"></span>
+            </div>
+        </div>
+        <img src="next.png" id="nextBtn">
+    </div>
+
+    <!-- Modal Container -->
+    <div class="modal" id="myModal">
+        <span class="close" id="closeBtn">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
